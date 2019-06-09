@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dailog_background"
+    android:orientation="vertical">
+
+    <com.geveze.components.TextViewCustom
+        android:id="@+id/dialogOneButtonTitle"
+        style="@style/TextView.Dialog.Head"
+        android:text="Process Completed" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical">
+
+        <com.geveze.components.TextViewCustom
+            android:id="@+id/dialogOneButtonText"
+            style="@style/TextView.Dialog.Text"
+            android:text="Return the main menu" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.geveze.components.ButtonCustom
+                android:id="@+id/dialogOneButtonOkButton"
+                style="@style/Button.Dialog.Middle"
+                android:text="Ok" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

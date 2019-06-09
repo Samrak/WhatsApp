@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "/Users/sametoztoprak/Desktop/Projects/Geveze/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/sametoztoprak/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/sametoztoprak/Desktop/Projects/Geveze/app/.externalNativeBuild/cmake/prodRelease/arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "native-lib-Release-arm64-v8a": {
+      "artifactName": "native-lib",
+      "buildCommand": "/Users/sametoztoprak/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/sametoztoprak/Desktop/Projects/Geveze/app/.externalNativeBuild/cmake/prodRelease/arm64-v8a --target native-lib",
+      "abi": "arm64-v8a",
+      "output": "/Users/sametoztoprak/Desktop/Projects/Geveze/app/build/intermediates/cmake/prod/release/obj/arm64-v8a/libnative-lib.so"
+    }
+  }
+}

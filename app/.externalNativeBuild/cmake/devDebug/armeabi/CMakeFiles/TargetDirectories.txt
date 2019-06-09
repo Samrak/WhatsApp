@@ -1,0 +1,3 @@
+/Users/sametoztoprak/Desktop/Projects/Geveze/app/.externalNativeBuild/cmake/devDebug/armeabi/CMakeFiles/edit_cache.dir
+/Users/sametoztoprak/Desktop/Projects/Geveze/app/.externalNativeBuild/cmake/devDebug/armeabi/CMakeFiles/rebuild_cache.dir
+/Users/sametoztoprak/Desktop/Projects/Geveze/app/.externalNativeBuild/cmake/devDebug/armeabi/CMakeFiles/native-lib.dir

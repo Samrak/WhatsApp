@@ -1,0 +1,3 @@
+/Users/sametoztoprak/Desktop/Projects/Geveze/app/.externalNativeBuild/cmake/productionRelease/x86/CMakeFiles/edit_cache.dir
+/Users/sametoztoprak/Desktop/Projects/Geveze/app/.externalNativeBuild/cmake/productionRelease/x86/CMakeFiles/rebuild_cache.dir
+/Users/sametoztoprak/Desktop/Projects/Geveze/app/.externalNativeBuild/cmake/productionRelease/x86/CMakeFiles/native-lib.dir

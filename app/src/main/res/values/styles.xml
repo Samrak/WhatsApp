@@ -1,0 +1,210 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primaryDark</item>
+        <item name="colorPrimaryDark">@color/primaryLight</item>
+        <item name="colorAccent">@color/primaryDark</item>
+
+        <item name="android:windowBackground">@color/backgroundScreen</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:listViewStyle">@style/ListView</item>
+        <item name="imageButtonStyle">@style/ImageButton</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="TextView" parent="android:Widget.TextView">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginBottom">@dimen/component_space</item>
+        <item name="font">@integer/font_Light</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/textview_text_size</item>
+    </style>
+
+    <style name="TextView.Key">
+        <item name="font">@integer/font_Light</item>
+    </style>
+
+    <style name="TextView.Value">
+        <item name="font">@integer/font_Regular</item>
+    </style>
+
+    <style name="TextView.Call">
+        <item name="font">@integer/font_Light</item>
+        <item name="android:textSize">@dimen/textview_call_size</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_margin">@dimen/frame_size</item>
+    </style>
+
+    <style name="Spinner" parent="Base.Widget.AppCompat.Spinner.Underlined">
+        <item name="android:textSize">@dimen/spinner_font_size</item>
+        <item name="android:minHeight">@dimen/spinner_min_height</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginBottom">@dimen/component_space</item>
+        <item name="android:text">@string/choice</item>
+    </style>
+
+    <style name="TextView.Spinner">
+        <item name="font">@integer/font_Medium</item>
+        <item name="android:textSize">@dimen/spinner_font_size</item>
+        <item name="android:minHeight">@dimen/spinner_min_height</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginBottom">@dimen/component_space</item>
+        <item name="android:text">@string/choice</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:drawableRight">@drawable/ic_arrow_drop_down</item>
+        <item name="android:background">@drawable/spinner_selector</item>
+
+    </style>
+
+    <style name="TextView.Dialog">
+        <item name="android:paddingLeft">@dimen/dimen_size</item>
+        <item name="android:paddingRight">@dimen/dimen_size</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextView.Dialog.Head">
+        <item name="font">@integer/font_Medium</item>
+        <item name="android:textSize">@dimen/textview_dialog_head_size</item>
+        <item name="android:minHeight">@dimen/textview_dialog_head_min_height</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/dialog_title_style</item>
+        <item name="android:drawablePadding">@dimen/textview_dialog_drawable_padding</item>
+        <item name="android:drawableLeft">@drawable/ic_done</item>
+    </style>
+
+    <style name="TextView.Dialog.Text">
+        <item name="android:textSize">@dimen/textview_dialog_text_size</item>
+    </style>
+
+    <style name="TextView.label">
+        <item name="android:textSize">@dimen/spinner_label_size</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:layout_marginBottom">@dimen/zero_dimen</item>
+    </style>
+
+    <style name="TextView.chat">
+        <item name="font">@integer/font_Regular</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/chat_edittext_padding_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/message_edittext_padding</item>
+        <item name="android:layout_marginRight">@dimen/message_edittext_padding</item>
+        <item name="android:paddingBottom">@dimen/chat_edittext_padding_vertical</item>
+        <item name="android:paddingTop">@dimen/chat_edittext_padding_vertical</item>
+        <item name="android:paddingLeft">@dimen/chat_edittext_padding_horizontal</item>
+        <item name="android:paddingRight">@dimen/chat_edittext_padding_horizontal</item>
+        <item name="android:textSize">@dimen/textview_chat_size</item>
+    </style>
+
+    <style name="TextView.chat.left">
+        <item name="android:background">@drawable/chat_row_left</item>
+        <item name="android:layout_gravity">left</item>
+    </style>
+
+    <style name="TextView.chat.right">
+        <item name="android:background">@drawable/chat_row_right</item>
+        <item name="android:layout_gravity">right</item>
+    </style>
+
+    <style name="Button" parent="Base.Widget.AppCompat.Button">
+        <item name="font">@integer/font_Medium</item>
+        <item name="android:layout_height">@dimen/button_min_height</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginBottom">@dimen/button_margin_bottom</item>
+        <item name="android:textAppearance">@style/Font.Medium.20</item>
+    </style>
+
+    <style name="Button.Primary">
+        <item name="android:background">@drawable/button_primary_selector</item>
+    </style>
+
+    <style name="Button.Tertiary">
+        <item name="android:background">@drawable/button_tertiary_selector</item>
+    </style>
+
+    <style name="Button.Dialog">
+        <item name="android:layout_weight">@integer/weight</item>
+        <item name="android:layout_margin">@dimen/button_dialog_layout_margin</item>
+    </style>
+
+    <style name="Button.Dialog.Left">
+        <item name="android:background">@drawable/button_primary_selector</item>
+    </style>
+
+    <style name="Button.Dialog.Right">
+        <item name="android:textColor">@color/primaryDark</item>
+        <item name="android:background">@drawable/button_tertiary_selector</item>
+    </style>
+
+    <style name="Button.Dialog.Middle">
+        <item name="android:background">@drawable/button_primary_selector</item>
+    </style>
+
+    <style name="EditText" parent="Base.Widget.AppCompat.EditText">
+        <item name="font">@integer/font_Light</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:minHeight">@dimen/edittext_min_height</item>
+        <item name="android:background">@drawable/edittext_selector</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/edittext_font_size</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginBottom">@dimen/component_space</item>
+    </style>
+
+    <style name="EditText.chat">
+        <item name="android:background">@drawable/message_edittext_selector</item>
+        <item name="android:left">@dimen/zero_dimen</item>
+        <item name="android:paddingLeft">@dimen/message_edittext_padding</item>
+        <item name="android:layout_marginBottom">@dimen/message_edittext_bottom</item>
+    </style>
+
+    <style name="ListView" parent="Widget.AppCompat.ListView">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:divider">@color/gray</item>
+        <item name="android:dividerHeight">@dimen/listview_divider_height</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="ImageButton" parent="Base.Widget.AppCompat.ImageButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_marginBottom">@dimen/component_space</item>
+    </style>
+
+    <style name="ImageViewIcon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:clickable">true</item>
+        <item name="android:tint">@color/primaryLight</item>
+    </style>
+
+    <style name="ImageViewIcon.White">
+        <item name="android:tint">@color/white</item>
+    </style>
+
+    <style name="Line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/line_height</item>
+        <item name="android:background">@color/gray</item>
+    </style>
+
+</resources>

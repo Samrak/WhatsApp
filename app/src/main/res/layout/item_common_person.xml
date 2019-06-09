@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/selector_listview"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/item_padding"
+        android:paddingRight="@dimen/item_padding"
+        android:paddingTop="@dimen/item_padding">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:padding="@dimen/item_padding">
+
+            <ImageView
+                android:id="@+id/itemCommonImage"
+                android:layout_width="@dimen/image_size"
+                android:layout_height="@dimen/image_size"
+                android:scaleType="fitXY"
+                android:src="@mipmap/person" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/item_padding">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <com.geveze.components.TextViewCustom
+                            android:id="@+id/itemCommonName"
+                            style="@style/Font.Medium.18"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="5"
+                            android:gravity="left"
+                            android:text="Samet" />
+
+                        <com.geveze.components.TextViewCustom
+                            android:id="@+id/itemCommonDate"
+                            style="@style/Font.Light.14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:paddingRight="@dimen/item_padding"
+                            android:text="16.02.1989"
+                            android:textColor="@color/gray" />
+                    </LinearLayout>
+
+                    <com.geveze.components.TextViewCustom
+                        android:id="@+id/itemCommonStatus"
+                        style="@style/Font.Regular.16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginBottom="@dimen/component_space"
+                        android:text="Status statement"
+                        android:textColor="@color/gray" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/itemCommonIconLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <ImageView
+                        android:id="@+id/itemCommonPhone"
+                        style="@style/ImageViewIcon"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_phone"
+                        android:tint="@color/green" />
+
+                    <ImageView
+                        android:id="@+id/itemCommonChat"
+                        style="@style/ImageViewIcon"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_chat" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <View style="@style/Line" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

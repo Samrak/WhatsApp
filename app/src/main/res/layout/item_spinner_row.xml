@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_spinner"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/item_padding"
+    android:paddingTop="@dimen/item_padding">
+
+    <com.geveze.components.TextViewCustom
+        android:id="@+id/countryCode"
+        style="@style/Font.Light.18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/zero_dimen"
+        android:layout_weight="6"
+        android:text="+90" />
+
+    <com.geveze.components.TextViewCustom
+        android:id="@+id/countryName"
+        style="@style/Font.Medium.18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/zero_dimen"
+        android:layout_weight="1"
+        android:text="Türkiye" />
+
+</LinearLayout>

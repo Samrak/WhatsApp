@@ -1,0 +1,37 @@
+<resources>
+
+    <string name="wellcome_geveze">Gevezeye Hoşgeldiniz</string>
+
+    <string name="dialog_internet_connection_text">İnternet bağlantınız bulunmamaktadır, bağlantınızı gözden geçiriniz.</string>
+    <string name="dialog_phone_number_text">Geçerli telefon numarası giriniz.</string>
+
+    <string name="okay">Tamam</string>
+    <string name="go_on">Devam</string>
+    <string name="registration">Kayıt Ol</string>
+    <string name="verification">Doğrulama</string>
+    <string name="phone_number">Telefon Numarası</string>
+    <string name="choice">Seçiniz</string>
+    <string name="country_code">Ülke Kodu</string>
+    <string name="activation_code">Doğrulama Kodu</string>
+    <string name="contacts">Bağlantılar</string>
+
+    <string name="phone">Telefon</string>
+    <string name="search">Bul</string>
+    <string name="forward">İleri</string>
+    <string name="resend">Tekrar Gönder</string>
+    <string name="chat">Sohbet</string>
+    <string name="status">Durum</string>
+    <string name="calls">Aramalar</string>
+    <string name="message_write">Mesaj...</string>
+
+    <string name="refresh">Yenile</string>
+    <string name="warning">Uyarı</string>
+
+    <string name="registration_info">Geveze SMS göndererek telefonun numaranın doğruluğunu kontrol edecek. Ülke kodunuzu ve telefon numaranızı giriniz:</string>
+    <string name="verification_info1">Yukarıdaki telefon numarası ile kayıt denenmiştir. SMS\'in ulaşması bir kaç dakika alabilir.</string>
+    <string name="verification_info2">*SMS ile gönderilen Doğrulama Kodunu giriniz</string>
+
+    <string name="Firebase_TooMany_Requests_Exception">Çok fazla istek gönderildi. Sonra tekrar deneyiniz.</string>
+    <string name="Firebase_AuthInvalid_Credentials_Exception">Bu cihaz için tanımlama yapılamadı.</string>
+
+</resources>

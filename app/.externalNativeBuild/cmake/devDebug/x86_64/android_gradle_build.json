@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "/Users/sametoztoprak/Desktop/Projects/Geveze/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/sametoztoprak/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/sametoztoprak/Desktop/Projects/Geveze/app/.externalNativeBuild/cmake/devDebug/x86_64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Debug-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/sametoztoprak/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/sametoztoprak/Desktop/Projects/Geveze/app/.externalNativeBuild/cmake/devDebug/x86_64 --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/sametoztoprak/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/sametoztoprak/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/sametoztoprak/Desktop/Projects/Geveze/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/sametoztoprak/Desktop/Projects/Geveze/app/.externalNativeBuild/cmake/devDebug/x86_64"
+				}
+			],
+			"output" : "/Users/sametoztoprak/Desktop/Projects/Geveze/app/build/intermediates/cmake/dev/debug/obj/x86_64/libnative-lib.so",
+			"toolchain" : "4808498103170381285"
+		}
+	},
+	"toolchains" : 
+	{
+		"4808498103170381285" : 
+		{
+			"cCompilerExecutable" : "/Users/sametoztoprak/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/sametoztoprak/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

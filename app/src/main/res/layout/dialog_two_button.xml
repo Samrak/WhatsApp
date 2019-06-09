@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dailog_background"
+    android:orientation="vertical">
+
+    <com.geveze.components.TextViewCustom
+        android:id="@+id/dialogTwoButtonTitle"
+        style="@style/TextView.Dialog.Head"
+        android:text="İşlem tamamlanıyor" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical">
+
+        <com.geveze.components.TextViewCustom
+            android:id="@+id/dialogTwoButtonText"
+            style="@style/TextView.Dialog.Text"
+            android:text="Do you realy want to exit ? do you really want this ?" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.geveze.components.ButtonCustom
+                android:id="@+id/dialogTwoButtonButtonLeft"
+                style="@style/Button.Dialog.Left"
+                android:text="Yes" />
+
+            <com.geveze.components.ButtonCustom
+                android:id="@+id/dialogTwoButtonButtonRight"
+                style="@style/Button.Dialog.Right"
+                android:text="No" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

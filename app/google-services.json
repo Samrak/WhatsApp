@@ -1,0 +1,187 @@
+{
+  "project_info": {
+    "project_number": "339426347224",
+    "firebase_url": "https://com-geveze.firebaseio.com",
+    "project_id": "com-geveze",
+    "storage_bucket": "com-geveze.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339426347224:android:017660c0f4f41ffc",
+        "android_client_info": {
+          "package_name": "com.geveze.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "339426347224-ooju1lfj8jstlkb9470o9p6q0j84lncq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.geveze.dev",
+            "certificate_hash": "fa301b766f0ea1c39ae1001a5fd50c4b46d14c9c"
+          }
+        },
+        {
+          "client_id": "339426347224-ckgphp0jvpbt1e8o881nh5ujv76jv6nj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJvW2S_HETg5mYv0YvkiTO3i_el2-XHdw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "339426347224-ckgphp0jvpbt1e8o881nh5ujv76jv6nj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339426347224:android:4d0007d3575f5b10",
+        "android_client_info": {
+          "package_name": "com.geveze.prod"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "339426347224-5qbusuuej7k9p4i8amu8ng5lbrvatknu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.geveze.prod",
+            "certificate_hash": "fa301b766f0ea1c39ae1001a5fd50c4b46d14c9c"
+          }
+        },
+        {
+          "client_id": "339426347224-ckgphp0jvpbt1e8o881nh5ujv76jv6nj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJvW2S_HETg5mYv0YvkiTO3i_el2-XHdw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "339426347224-ckgphp0jvpbt1e8o881nh5ujv76jv6nj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339426347224:android:032b8551d32a4826",
+        "android_client_info": {
+          "package_name": "com.geveze.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "339426347224-d176rdbuqgdud36hoipq25v1kgpfb4rd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.geveze.test",
+            "certificate_hash": "fa301b766f0ea1c39ae1001a5fd50c4b46d14c9c"
+          }
+        },
+        {
+          "client_id": "339426347224-ckgphp0jvpbt1e8o881nh5ujv76jv6nj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJvW2S_HETg5mYv0YvkiTO3i_el2-XHdw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "339426347224-ckgphp0jvpbt1e8o881nh5ujv76jv6nj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339426347224:android:8047d431bbc1a03c",
+        "android_client_info": {
+          "package_name": "com.geveze"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "339426347224-e6peg6k52gupjlsf67k456j0oe4aa0kd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.geveze",
+            "certificate_hash": "fa301b766f0ea1c39ae1001a5fd50c4b46d14c9c"
+          }
+        },
+        {
+          "client_id": "339426347224-ckgphp0jvpbt1e8o881nh5ujv76jv6nj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJvW2S_HETg5mYv0YvkiTO3i_el2-XHdw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "339426347224-ckgphp0jvpbt1e8o881nh5ujv76jv6nj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

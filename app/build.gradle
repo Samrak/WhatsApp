@@ -1,0 +1,95 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'io.fabric'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.geveze"
+        minSdkVersion 16
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    signingConfigs {
+        debug {
+            storeFile file("signing/debug/gevezedebugkey.keystore")
+            storePassword "123456"
+            keyAlias "geveze_debug"
+            keyPassword "123456"
+        }
+
+        release {
+            storeFile file("signing/relase/gevezereleasekey.keystore")
+            storePassword "123456"
+            keyAlias "geveze_release"
+            keyPassword "123456"
+        }
+    }
+    buildTypes {
+
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    flavorDimensions "$flavor_dimension"
+
+    productFlavors {
+
+        qua {
+            applicationIdSuffix "$pack_test"
+            versionNameSuffix "$ver_test"
+            dimension "$flavor_dimension"
+        }
+
+        dev {
+            applicationIdSuffix "$pack_dev"
+            versionNameSuffix "$ver_dev"
+            dimension "$flavor_dimension"
+        }
+
+        prod {
+            applicationIdSuffix "$pack_prod"
+            versionNameSuffix "$ver_prod"
+            dimension "$flavor_dimension"
+        }
+    }
+
+    android.applicationVariants.all { v ->
+        if (v.buildType.name == "release" && v.versionName.contains(ver_prod)) {
+            resValue "string", "app_name", "$app_name"
+            v.assemble.doLast {
+                logger.lifecycle("we have successfully built $v.name and can post a messaage to remote server")
+            }
+        } else {
+            resValue "string", "app_name", "$app_name" + " v" + v.versionName + " " + v.buildType.name
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:2.0.0-beta1'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    compile 'com.github.Samrak:SQLiteKotlin:-SNAPSHOT'
+    compile 'com.google.firebase:firebase-auth:17.0.0'
+
+    compile('com.crashlytics.sdk.android:crashlytics:2.10.1@aar') {
+        transitive = true
+    }
+    compile 'com.google.firebase:firebase-core:16.0.9'
+}
+
+apply plugin: 'com.google.gms.google-services'

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryDark"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.geveze.components.TextViewCustom
+            android:id="@+id/activityCallName"
+            style="@style/TextView.Call"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Samet Öztoprak" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@mipmap/pic"
+            android:gravity="center|bottom"
+            android:orientation="vertical"
+            android:paddingBottom="16dp">
+
+            <LinearLayout
+                android:id="@+id/activityCallHangUpLayout"
+                android:layout_width="@dimen/round_shape_size"
+                android:layout_height="@dimen/round_shape_size"
+                android:background="@drawable/round_shape"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/activityCallHangUp"
+                    style="@style/ImageViewIcon.White"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_call_end" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/activityCallVolume"
+                    style="@style/ImageViewIcon.White"
+                    android:src="@drawable/ic_volume_on" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/activityCallChat"
+                    style="@style/ImageViewIcon.White"
+                    android:src="@drawable/ic_chat" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/activityCallMic"
+                    style="@style/ImageViewIcon.White"
+                    android:src="@drawable/ic_mic_off" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

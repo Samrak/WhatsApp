@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/frame_size"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.geveze.components.TextViewCustom
+            android:id="@+id/activityVerificationPhoneKey"
+            style="@style/TextView.Key"
+            android:text="@string/phone_number" />
+
+        <com.geveze.components.TextViewCustom
+            android:id="@+id/activityVerificationPhone"
+            style="@style/TextView.Value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+905543435267" />
+    </LinearLayout>
+
+
+    <com.geveze.components.TextViewCustom
+        style="@style/TextView"
+        android:text="@string/verification_info1" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.geveze.components.EditTextCustom
+            android:id="@+id/activationVerificationCode"
+            style="@style/EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/activation_code"
+            android:inputType="number"
+            android:maxLength="@integer/verification_code_size" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <com.geveze.components.TextViewCustom
+        style="@style/Font.Light.14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/verification_info2" />
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="font_Medium">1</integer>
+    <integer name="font_Regular">2</integer>
+    <integer name="font_Light">3</integer>
+
+    <dimen name="font_size_12">12sp</dimen>
+    <dimen name="font_size_14">14sp</dimen>
+    <dimen name="font_size_16">16sp</dimen>
+    <dimen name="font_size_18">18sp</dimen>
+    <dimen name="font_size_20">20sp</dimen>
+
+    <style name="Font">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Font.Light">
+        <item name="font">@integer/font_Light</item>
+    </style>
+
+    <style name="Font.Light.14">
+        <item name="android:textSize">@dimen/font_size_14</item>
+    </style>
+
+    <style name="Font.Light.16">
+        <item name="android:textSize">@dimen/font_size_16</item>
+    </style>
+
+    <style name="Font.Light.18">
+        <item name="android:textSize">@dimen/font_size_18</item>
+    </style>
+
+    <style name="Font.Light.20">
+        <item name="android:textSize">@dimen/font_size_18</item>
+    </style>
+
+    <style name="Font.Regular">
+        <item name="font">@integer/font_Regular</item>
+    </style>
+
+    <style name="Font.Regular.12">
+        <item name="android:textSize">@dimen/font_size_12</item>
+    </style>
+
+    <style name="Font.Regular.16">
+        <item name="android:textSize">@dimen/font_size_16</item>
+    </style>
+
+    <style name="Font.Regular.18">
+        <item name="android:textSize">@dimen/font_size_18</item>
+    </style>
+
+    <style name="Font.Regular.20">
+        <item name="android:textSize">@dimen/font_size_18</item>
+    </style>
+
+    <style name="Font.Medium">
+        <item name="font">@integer/font_Medium</item>
+    </style>
+
+    <style name="Font.Medium.16">
+        <item name="android:textSize">@dimen/font_size_16</item>
+    </style>
+
+    <style name="Font.Medium.18">
+        <item name="android:textSize">@dimen/font_size_18</item>
+    </style>
+
+    <style name="Font.Medium.20">
+        <item name="android:textSize">@dimen/font_size_20</item>
+    </style>
+
+</resources>

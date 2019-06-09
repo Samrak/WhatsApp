@@ -1,0 +1,18 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/transparent" /> <!--background color -->
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <solid android:color="@color/transparent" />
+            <stroke
+                android:width="2dp"
+                android:color="@color/primaryDark" />
+            <!-- color and size of the border -->
+            <corners android:radius="@dimen/message_edittext_radius" />
+        </shape>
+    </item>
+</layer-list>

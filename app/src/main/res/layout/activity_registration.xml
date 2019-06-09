@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:utly="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/frame_size"
+    android:orientation="vertical"
+    android:paddingTop="16dp">
+
+    <com.geveze.components.TextViewCustom
+        style="@style/TextView"
+        android:text="@string/registration_info" />
+
+    <com.geveze.components.TextViewCustom
+        style="@style/TextView.label"
+        android:text="@string/country_code" />
+
+    <Spinner
+        android:id="@+id/spinnerCountry"
+        style="@style/Spinner" />
+<!--
+    <com.geveze.components.SpinnerCustom
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        utly:label="@string/country_code" />
+        -->
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.geveze.components.EditTextCustom
+            android:id="@+id/phoneNumber"
+            style="@style/EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/phone_number"
+            android:inputType="phone"
+            android:maxLength="@integer/phone_number_length" />
+
+    </android.support.design.widget.TextInputLayout>
+
+</LinearLayout>

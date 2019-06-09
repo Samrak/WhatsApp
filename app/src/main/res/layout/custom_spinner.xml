@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:utly="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutSpinner"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.geveze.components.TextViewCustom
+        android:id="@+id/spinnerLabel"
+        style="@style/TextView.label"
+        android:text="@string/country_code" />
+
+    <com.geveze.components.TextViewCustom
+        android:id="@+id/spinnerValue"
+        style="@style/TextView.Spinner" />
+
+</LinearLayout>
