@@ -7,17 +7,14 @@
 
 ### How do I get set up? ###
 
+Download code and run on your android device.
 
-  
-### How do I create object and database table mapping? ###
- 
-
-
-
-    
-### How do I use in Project? ###
-
-
+### Services ###
+* Firebase messageing service
+* Andoroid
+* Kotlin
+* Registiration and Verification screens.
+* Main WhatsApp screens.
 
 ### Contribution guidelines ###
 
